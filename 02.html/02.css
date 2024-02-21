@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: rgb(218, 236, 247);
+    width: 60%;
+    margin-left: 20%;
+}
+
+section{
+    background-color: snow;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 25px;
+} 
+header > h1{
+    text-align: center;
+}
+nav > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    
+}
+nav  a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+nav a:hover, nav li:hover{
+    background-color: brown;
+}
+
+nav li{  /* 공백은 자식에 있는거 다 찾는다 */
+    padding: 2px;
+    margin: 3px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+article{
+    padding: 20px 20px 10px;
+}
+
+article p{
+    margin: 10px;
+    padding: 5px;
+    flex-wrap: wrap;
+    background-color: azure;
+}
+
+section div{
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+section p{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 3px;
+}
+    
+img {
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer ul{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer li{
+    margin: 5px;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 768px) {
+    main{
+    background-color: rgb(131, 157, 173);
+    width: 100%;
+    margin-left: 0%;
+    }
+    
+    header > h1 {
+        font-size: medium;
+        color: aliceblue;
+    }
+    
+}

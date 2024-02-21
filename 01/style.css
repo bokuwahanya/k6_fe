@@ -1,0 +1,45 @@
+*{
+    border: 1px solid black;
+}
+body{
+    display: flex;
+    justify-items: center;
+    width: 60%;
+    margin-left: 20%;
+}
+.form{
+background-color: aliceblue;
+
+}
+.box{
+
+}
+.title{
+
+}
+.button_box{
+    display: flex;
+    justify-content: flex-end;
+    display: inline;
+}
+.main_box1 {
+    display: flex;
+}
+
+
+button{
+    background-color : dodgerblue;
+    color: aliceblue
+}
+.main_box{
+margin: 15px 15px 30px;
+padding: 10px 10px 10px;
+border-radius: 20px;
+ background-color: whitesmoke
+}
+.end{
+    padding: 10px;
+    background-color: black;
+    color: white;
+
+}
