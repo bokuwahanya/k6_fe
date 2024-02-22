@@ -20,4 +20,12 @@ function handleClick(n) {
 // const : 상수 선언
 // let : 변수 선언
 
-const handleClick = (n) => {document.querySelector("#msgArea").innerHTML = `<h2>버튼  ${n}  <h2>안녕하세요<h2>`;}
+const handleClick = (n) => {
+    let msg;
+    if (n == 1)
+        msg = "<h2>안녕하시요<h2>";
+    else
+        msg = "<h2>안녕히 가시요<h2>";
+
+    document.querySelector("#msgArea").innerHTML = msg;
+}   
