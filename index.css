@@ -21,7 +21,7 @@ header{
 article ul{
     width: 70%;
     list-style: none;
-    background-color: rgb(241, 225, 199);
+    
     margin-top: 20px;
     
 }
@@ -38,10 +38,38 @@ article li{
     display: flex;
     align-items: center;
     padding: 10px;
+    background-color: rgb(241, 225, 199);
 
 }
 
 article a{
     text-decoration: none;
     color: darkolivegreen;
+}
+article li:hover{
+    background-color: linen;
+}
+section{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section > h1 {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section > div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted grey;
+    padding: 20px;  
+    margin: 10px;
 }

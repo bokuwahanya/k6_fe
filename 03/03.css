@@ -1,0 +1,21 @@
+button {
+    width: 100px;
+    height: 40px;
+    background-color: darkblue;
+    color: aliceblue;
+    border: 0px;
+    margin: 5px;
+    border-radius: 25px;
+    
+}
+
+button:hover {
+    background-color: deepskyblue;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: medium;
+    color: blue;
+}
