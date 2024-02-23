@@ -1,7 +1,7 @@
 let coins = 10; // 초기 코인 설정
 
         const updateCoinDisplay = () => {
-            document.querySelector("#coinCount").innerHTML = `현재 코인: ${coins}개`;
+            document.querySelector("#coinCount").innerHTML = `💸: ${coins}`;
         }
 
         const handleClick = () => {
