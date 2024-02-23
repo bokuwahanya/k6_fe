@@ -1,21 +1,63 @@
-button {
-    width: 100px;
+.btGroup button {
+    width: 80px;
     height: 40px;
-    background-color: darkblue;
+    background-color: rgb(154, 154, 204);
     color: aliceblue;
     border: 0px;
-    margin: 5px;
-    border-radius: 25px;
+    margin-inline: 30px;
+    border-radius: 30px;
     
 }
+
+h2 {
+    font-size: medium;
+    color: rgb(69, 124, 83);
+}
+
+section img{
+    text-decoration: none;
+    width: 30px;
+}
+.btGroup{
+    background-color: rgb(247, 225, 196);
+}
+
+#btArea2 button {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(99, 143, 112);
+    color: aliceblue;
+    border: 0px;
+    margin-inline: 30px;
+    border-radius: 30px;
+    
+}
+
+#btArea2 #bt3{
+    background-color: rgb(224, 165, 221);
+    
+}
+#btArea2 #bt3:hover{
+    background-color: rgb(103, 110, 175);
+}
+
+#btArea2 button:hover {
+    background-color: rgb(170, 91, 91);
+    color: blanchedalmond;
+    cursor: pointer;
+
+}
+
 
 button:hover {
     background-color: deepskyblue;
     color: blanchedalmond;
     cursor: pointer;
 }
-
-h2 {
-    font-size: medium;
-    color: blue;
+#msgArea{
+    font-weight:bold;
+    color: rgb(221, 154, 163);
+    
 }
+
+

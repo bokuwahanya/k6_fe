@@ -8,6 +8,22 @@ main{
     margin-left: 20%;
 }
 
+button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(77, 77, 219);
+    color: aliceblue;
+    border: 0px;
+    margin-inline: 30px;
+    border-radius: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: rgb(224, 210, 148);
+}
+
 header{
     background-color: darkcyan;
     color: aliceblue;
@@ -18,37 +34,12 @@ header{
     padding: 0px 20px;
 
 }
-article ul{
-    width: 70%;
-    list-style: none;
-    
-    margin-top: 20px;
-    
-}
-article{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 
-article li{
-    height: 20px;
-    border: 1px dotted gray;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    background-color: rgb(241, 225, 199);
-
-}
-
-article a{
+header img{
     text-decoration: none;
-    color: darkolivegreen;
+    width: 50px;
 }
-article li:hover{
-    background-color: linen;
-}
+
 section{
     margin: 20px;
     display: flex;
@@ -58,7 +49,7 @@ section{
 }
 
 section > h1 {
-    margin: 20px;
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +64,30 @@ section > div {
     padding: 20px;  
     margin: 10px;
 }
-header img{
-    text-decoration: none;
-    width: 50px;
+
+#numbox img{
+    margin: 10px;
+    width: 20%;
+}
+
+#msgArea{
+    width: 80%;
+    
+}
+#msgArea img{
+    height: 40%;
+    width: 80%;
+    
+}
+
+#coinCount {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    
+    
 }
