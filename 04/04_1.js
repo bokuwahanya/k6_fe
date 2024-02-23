@@ -32,18 +32,6 @@ let coins = 10; // 초기 코인 설정
             }
         }
 
-        // 추가할 코인 갯수를 입력하고 버튼을 누를 때 실행되는 함수
-        const addCoins = () => {
-            const coinInputValue = parseInt(document.querySelector("#coinInput").value);
-            if (!isNaN(coinInputValue) && coinInputValue > 0) {
-                coins += coinInputValue;
-                updateCoinDisplay();
-                document.querySelector("#coinInput").value = "";
-            } else {
-                alert("유효한 숫자를 입력해주세요.");
-            }
-        }
-
         // 초기 코인 설정 함수
         const setInitialCoins = () => {
             const initialCoins = parseInt(prompt("초기 코인 갯수를 입력하세요:"));
