@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="../index.css"> -->
-    <link rel="stylesheet" href="./04.css">
+    <link rel="stylesheet" href="./06.css">
     <!-- /*자바스크립트 위치*/ -->
     <!-- <script>
         alert("안녕하세요") ;
     </script> -->
     <!-- 자바스크립트 외부파일-->
-    <script src="./04_1.js"></script>
+    <script src="./06_1.js"></script>
 
     <title> k_digital_6기</title>
 </head>
@@ -31,13 +31,10 @@
             <h1></h1>
            
             <div id="msgArea">
-                <h3>🎰오늘의 주인공은 당신🎰</h3>
+                <h3>컴퓨터와 싸우기</h3>
                 
             </div>
 
-            <div id="coinCount">
-
-                <button id="setInitialCoinsBtn" onclick="setInitialCoins()">buy the coin</button>
                 
             </div>
 
@@ -51,32 +48,31 @@
             <div id="result3">
                 <img src="./img/1.png" >
             </div> -->
-
             <div id="numbox">
-                <img src="./img/1.png" class="c1" />
-                <img src="./img/2.png" class="c1"/>
-                <img src="./img/3.png" class="c1"/>
+                <div class="com_numbox">
+                <p>computer</p><img src="../04/img/1.png">
+                </div>
+                <div class="me_numbox">
+                <p>me</p>
+                <img src="../04/img/2.png" > 
+                </div>
+                
             </div>
         </div>
             
-
-            <div>
-                <!--버튼에 handleclick-->
-                <button onclick="handleClick()">🎲주사위를 던져주세요🎲</button>
-                   <!--버튼에 이벤트-->
-                   <!-- <button id="bts">🎲주사위를 던져주세요🎲</button> -->
-            </div>
             
+         <div id="choose">
+                <button >1</button>
+                <button >2</button>
+                <button >3</button>
+                <button >4</button>
+                <button >5</button>
+                <button >6</button>
+         </div>
+
+         <div id="msg">
+
+         </div>
+    
         </section>
-
-
     </main>
-
-
-</body>
-
-</html>
-
-<!-- <script> // 스크립트는 어디든 써도 상관이없다. 헤드 안이든 바디 안이든. 하지만 헤더 부분이 좋다
-    alert("안녕하세요");
-</script> -->

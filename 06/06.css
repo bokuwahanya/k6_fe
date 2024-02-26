@@ -65,9 +65,12 @@ section > div {
     margin: 10px;
 }
 
-#numbox img{
+
+#com_numbox p, #me_numbox p{
+    display: flex;
+    justify-content: center;
     margin: 10px;
-    width: 20%;
+    width: 80%;
 }
 
 #msgArea{
@@ -88,16 +91,7 @@ section > div {
     background-color: rgb(245, 200, 211);
 }
 
-#coinCount {
-    display: flex;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    background-color: #75d886;
-    padding: 10px;
-    border-radius: 5px;
-}
 
-#choose {
-    margin: 0%;
+.choose button {
+    margin: 10px;
 }
