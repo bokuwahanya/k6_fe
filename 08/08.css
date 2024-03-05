@@ -1,0 +1,88 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+main{
+    width: 60%;
+    margin-left: 20%;
+}
+
+section{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section > h1 {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkseagreen;
+    padding: 20px;
+
+}
+
+section > div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px dotted rgb(212, 209, 161);
+    padding: 10px;  
+    margin: 10px;
+    height: 350px;
+    
+}
+header img{
+    text-decoration: none;
+    width: 50px;
+}
+header{
+    background-color: darkcyan;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0px 20px;
+
+}
+#game_set{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+
+}
+section button{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: darkcyan;
+    color: aliceblue;
+}
+#number_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+#num1{
+    padding: 15px;
+    margin: 5px;
+}
+
+#msg{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+#cost{
+    height: 10px;
+}
